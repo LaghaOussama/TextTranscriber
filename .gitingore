@@ -1,0 +1,135 @@
+# ===== Backend (Spring Boot / Java / Maven / Gradle) =====
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven build logs & target
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle build
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+**/gradlew
+**/gradlew.bat
+**/gradle/wrapper/gradle-wrapper.properties
+
+# Spring Boot fat JAR
+**/*.log
+**/spring-boot-logger.properties
+
+# Application properties (sensitive data)
+application-local.properties
+application-dev.properties
+application-prod.properties
+*.secret.properties
+**/application-*.yml
+!application-example.yml
+*.key
+*.p12
+*.jks
+
+# ===== Frontend (React / Node.js) =====
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build output
+build/
+dist/
+out/
+.next/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# React specific
+.eslintcache
+*.mjs.map
+*.cjs.map
+
+# ===== IDE / Editor files =====
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+*.launch
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# ===== OS generated files =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+~$*
+
+# ===== Logs and temporary files =====
+logs/
+*.log
+*.tmp
+*.temp
+*.cache
+.hprof
+*.dump
+
+# ===== Test & coverage =====
+test-output/
+coverage/
+.nyc_output/
+*.jacoco
+*.testresults
+
+# ===== Docker (optional, keep if you want to ignore large docker artifacts) =====
+docker-compose.override.yml
+*.dockerignore
+!Dockerfile
