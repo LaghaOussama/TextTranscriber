@@ -1,7 +1,12 @@
 import "./App.css";
+import AudioUploader from "./AudioUploader";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <AudioUploader />
+    </>
+  );
 }
 
 export default App;
